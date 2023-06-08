@@ -1,0 +1,110 @@
+@media (min-width: 320px) and (max-width: 768px) {
+	section > .container {
+		display: block;
+		width: auto;
+	}
+	.text-banner {
+		top: 5%;
+		left: 20%;
+		text-shadow: none;
+		font-family: "inter";
+	}
+	.text-banner h1 {
+		font-size: 40px;
+		text-transform: capitalize;
+	}
+	.text-nav,
+	.avt-img {
+		display: none;
+	}
+	/* navar */
+	#nav-bar a:link,
+	a:visited {
+		display: block;
+		border-left: none;
+		border-right: none !important;
+		text-align: left;
+	}
+	/* info */
+	#about .about-flex {
+		display: none;
+	}
+	/* certificate */
+	.cer-content {
+		border-left: 0;
+		border-top: 2px solid #d6c08d;
+		padding-top: 20px;
+		flex-direction: column;
+	}
+	/* footer */
+	#footer a:link,
+	a:visited {
+		text-align: center;
+		padding: 0 20px 0;
+	}
+	.common span {
+		opacity: 0;
+	}
+	.i-ft {
+		font-size: 50px;
+	}
+	/* change position-story activities */
+	.order0 {
+		order: 2;
+	}
+	.order12 {
+		order: 0;
+	}
+	.order1 {
+		order: 3;
+	}
+	.order2 {
+		order: 3;
+	}
+	.order3 {
+		order: 1;
+	}
+	.job-icon {
+		font-size: 50px;
+	}
+	/* hobby box */
+	.hobby-list {
+		display: grid;
+		grid-template-columns: repeat(3, 30%);
+		row-gap: 0.5px;
+		column-gap: 40px;
+		padding-bottom: 40px;
+	}
+	.sticker {
+		width: 70px;
+		height: 60px;
+		font-size: 25px;
+		padding-top: 15px;
+	}
+	/* project charter */
+	.border0 {
+		border-right: none !important;
+	}
+	.border1 {
+		order: 1;
+		margin-top: 0;
+		border-top: 20px solid blue;
+		border-bottom: none !important;
+		border-right: 14px solid blue;
+	}
+	.border2 {
+		margin-top: 0;
+		border-right: 14px solid blue;
+	}
+	.border3 {
+		order: 1;
+		border-left: none !important;
+		border-top: 20px solid blue;
+		border-right: 14px solid blue;
+	}
+	.border4 {
+		margin-top: 0;
+		border-top: none !important;
+		border-left: 16px solid blue;
+	}
+}
